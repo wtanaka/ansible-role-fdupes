@@ -12,6 +12,4 @@
 - include: RedHat.yml
   when: ansible_os_family == 'RedHat'
 
-- include: update_package_names.yml
-
 - include: install_package_names.yml
